@@ -11,11 +11,11 @@ var date = "";
 var desc = "";
 
 app.get('/', function(req, res){
-    getData();
+    //getData();
 });
 
 function getData(){
-    fetch();
+    //fetch();
 }
 
 app.listen(port, function(){
