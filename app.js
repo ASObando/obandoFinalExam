@@ -7,11 +7,11 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res){
 
-
 });
+
+app.getData(function(){});
 
 
 app.listen(port, function(){
-
 });
 
