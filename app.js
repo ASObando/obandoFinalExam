@@ -12,13 +12,12 @@ var date = "";
 var desc = "";
 
 app.get('/', function(req, res){
-    //getData(true);
+    getData();
 });
 
-app.getData(function(){
-    //get the actual data
-});
-
+function getData(){
+    fetch();
+}
 
 app.listen(port, function(){
 });
