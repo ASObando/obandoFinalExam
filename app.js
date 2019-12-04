@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 
-var image = "";
+var url = "";
 var title = "";
 var date = "";
 var desc = "";
